@@ -26,3 +26,11 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### 之前写过一篇基于vue的实现，链接放在这https://github.com/github-of-lxp/Vue2.x-take-out-food-system，现在用react实现同样的功能
+api什么的一模一样，但这次没用redux，只是单纯想尝试一下纯用props的效果，真的很痛苦，组件为函数组件和class组件混用。
+
+有个地方需要注意，vue中有<Transition>组件包括，能实现css切换效果  react中要配合js手动实现(当然也有大名鼎鼎的<CSSTransition>组件)，
+
+
+#### 最后再附上整体效果图
